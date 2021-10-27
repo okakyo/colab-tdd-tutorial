@@ -2,6 +2,9 @@
 
 このリポジトリは、テスト駆動開発についての勉強会で使用するライブラリです。以下に与えられた仕様に沿ってTDD の理解を深めるためのものです。
 
+この勉強会で使用したライブラリはこちらです。
+
+- [スライド](https://docs.google.com/presentation/d/17u3C17DgXn6BADwFS6qHHUGduQNcSnrP3anQA_9R73A/edit?usp=sharing)
 
 ## 問題
 
@@ -40,7 +43,6 @@ poetry install
 
 を実行し、必要なライブラリをインストールする。
 
-
 また、テストを実行するには、
 
 ```bash
@@ -48,4 +50,3 @@ pytest
 ```
 
 で実行する。
-
