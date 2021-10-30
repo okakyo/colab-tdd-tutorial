@@ -7,6 +7,7 @@ def greeting():
     return "おはようございます"
   elif(time(12,0,0) <=nowTime and nowTime < time(18,0,0)):
     return "こんにちは"
+
   return "こんばんは"
 
 if __name__ == "__main__":
