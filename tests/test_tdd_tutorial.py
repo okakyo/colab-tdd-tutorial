@@ -6,7 +6,7 @@ def test_version():
     assert __version__ == '0.1.0'
 
 
-@pytest.mark.freeze_time(datetime.datetime(2000, 1, 2, 3, 4))
+@pytest.mark.freeze_time(datetime(2000, 1, 2, 3, 4))
 def test_greeting():
     greetingWord  = greeting()
     assert(greetingWord =="こんばんは")
