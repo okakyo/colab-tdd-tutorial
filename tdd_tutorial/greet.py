@@ -1,14 +1,18 @@
 from datetime import datetime,time
 
-def greeting():
+class Person:
+  def __init__(self) -> None:
+    pass
 
-  # 以下のコードは、時間判定を追加してます。
-  nowTime = datetime.now().time()
+  def greeting(self) -> str:
 
-  if (time(5,0,0)<= nowTime and nowTime < time(12,0,0)):
-    return "おはようございます"
+    current_time = datetime.now().time()
 
-  return "こんばんは"
+    if (time(5,0,0)<= current_time and current_time < time(12,0,0)):
+      return "おはようございます"
+
+    return "こんばんは"
 
 if __name__ == "__main__":
-    print(greeting())
+    person = Person()
+    print(person.greeting())
